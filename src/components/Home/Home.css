@@ -1,0 +1,21 @@
+.laptop-color {
+    color: black;
+    font-weight: bold;
+}
+
+.laptop1-color {
+    color: blue;
+    font-weight: blue;
+}
+
+.header-intro {
+    margin-top: 100px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.header-img {
+    width: 400px;
+    height: 400px;
+    border-radius:10px;
+}
