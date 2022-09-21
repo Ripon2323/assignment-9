@@ -14,7 +14,7 @@ const Home = () => {
             "id": 1,
             "name": "Rakib",
             "ratings": 4,
-            "img": "https://images.app.goo.gl/hFFnFQnEHyxJTRdx5",
+            "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
             "comment":"The product is very nice and giving me better experience"
         },
         {
@@ -76,7 +76,8 @@ const Home = () => {
 
             </div>
 
-            <div>
+            <div className='review-part'>
+                <h1>All Reviews</h1>
                 {
                     reviews.map(review=><ReviewItem
                          key={review.id}
