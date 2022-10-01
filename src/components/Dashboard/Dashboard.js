@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import {  CartesianGrid, Legend, Line, LineChart, Pie, PieChart,  XAxis, YAxis } from 'recharts';
+import { CartesianGrid, Legend, Line, LineChart, Pie, PieChart, XAxis, YAxis } from 'recharts';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -9,7 +9,7 @@ const Dashboard = () => {
     const data = [
         {
             "month": "Mar",
-            "investment": 100000,
+            "investment": 10000,
             "sell": 241,
             "revenue": 10401
         },
@@ -69,7 +69,7 @@ const Dashboard = () => {
                     <Pie data={data} dataKey="revenue" nameKey="name" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
                 </PieChart>
             </div>
-            
+
 
         </div>
     );
